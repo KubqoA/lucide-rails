@@ -7,6 +7,7 @@ require "active_support/gzip"
 
 # path to your application root.
 GEM_ROOT = File.expand_path("..", __dir__)
+BUMP_PATCH_VERSION = ARGV.include?("--bump-patch-version")
 
 def system!(cmd, **options)
   out_reader, out_writer = IO.pipe
@@ -96,10 +97,35 @@ def strip!
   end
 end
 
-def commit!
+def commit!(gem_version)
   version = system! "ruby -e \"require_relative 'lib/lucide-rails/lucide_version'; puts LucideRails::LUCIDE_VERSION\""
-  system! "git add icons lib/lucide-rails/lucide_version.rb"
-  system! "git commit -m 'chore: Bump to #{version.strip}'"
+  if gem_version
+    system! "git add icons lib/lucide-rails CHANGELOG.md Gemfile.lock"
+    system! "git commit -m 'chore: Bump to #{version.strip} (v#{gem_version})'"
+  else
+    system! "git add icons lib/lucide-rails/lucide_version.rb"
+    system! "git commit -m 'chore: Bump to #{version.strip}'"
+  end
+end
+
+# Bumps the patch component of the gem version, refreshes the lockfile, and
+# retitles the pending changelog section. Returns the new version.
+def bump_patch_version!
+  path = "lib/lucide-rails/version.rb"
+  content = File.read(path)
+  current = content[/VERSION = "(.+)"/, 1]
+  major, minor, patch = current.split(".")
+  bumped = [major, minor, patch.to_i + 1].join(".")
+
+  File.write(path, content.sub(current, bumped))
+
+  lockfile = File.read("Gemfile.lock")
+  File.write("Gemfile.lock", lockfile.sub("lucide-rails (#{current})", "lucide-rails (#{bumped})"))
+
+  changelog = File.read("CHANGELOG.md")
+  File.write("CHANGELOG.md", changelog.sub(UNRELEASED_HEADER, "## [#{bumped}]"))
+
+  bumped
 end
 
 def extract_changes!
@@ -221,7 +247,7 @@ FileUtils.chdir GEM_ROOT do
   strip!
   changes = extract_changes!
   update_changelog!(changes)
-  commit!
+  commit!(BUMP_PATCH_VERSION ? bump_patch_version! : nil)
 ensure
   FileUtils.rm_rf Dir.glob("#{GEM_ROOT}/tmp/*")
 end

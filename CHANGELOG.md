@@ -8,6 +8,7 @@
 - CI now tests Ruby `3.1`/`3.4`/`4.0` against Rails `7.2`/`8.0`/`8.1` via `gemfiles/`.
 - Added `.ruby-version` (`4.0.6`) as the development Ruby.
 - Removed the unused `docker-compose.yml`.
+- Icons now update automatically when Lucide publishes a release.
 
 ## [0.7.4]
 
