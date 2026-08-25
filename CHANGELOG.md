@@ -1,12 +1,8 @@
 ## [Unreleased]
 
-### Changed
 - **Breaking:** Minimum Ruby version is now `3.1` (was `2.6`).
 - **Breaking:** Minimum `railties` version is now `7.2` (was `4.1`).
-
-### Internal
-- CI now tests Ruby `3.1`/`3.4`/`4.0` against Rails `7.2`/`8.0`/`8.1` via `gemfiles/`.
-- Added `.ruby-version` (`4.0.6`) as the development Ruby.
+- Fix `Zlib::GzipFile::Error` on Windows by reading the icon blob in binary mode ([#39](https://github.com/heyvito/lucide-rails/pull/39) by @ccmywish)
 - Removed the unused `docker-compose.yml`.
 - Icons now update automatically when Lucide publishes a release.
 
