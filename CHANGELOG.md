@@ -1,4 +1,4 @@
-## [Unreleased]
+## [0.8.0]
 
 - **Breaking:** Minimum Ruby version is now `3.1` (was `2.6`).
 - **Breaking:** Minimum `railties` version is now `7.2` (was `4.1`).
