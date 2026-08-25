@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Ruby on Rails views helper method for rendering Lucide icons."
   spec.homepage = "https://github.com/heyvito/lucide-rails"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["LICENSE.txt", "README.md", "lib/**/*", "icons/stripped/*", "icons/stripped.bin.gz"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency("railties", ">= 4.1.0")
+  spec.add_dependency("railties", ">= 7.2")
   spec.metadata["rubygems_mfa_required"] = "true"
 end

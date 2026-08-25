@@ -12,3 +12,5 @@
 .byebug_history
 *.gem
 spec/internal/tmp
+
+gemfiles/*.lock

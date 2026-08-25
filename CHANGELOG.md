@@ -1,3 +1,14 @@
+## [Unreleased]
+
+### Changed
+- **Breaking:** Minimum Ruby version is now `3.1` (was `2.6`).
+- **Breaking:** Minimum `railties` version is now `7.2` (was `4.1`).
+
+### Internal
+- CI now tests Ruby `3.1`/`3.4`/`4.0` against Rails `7.2`/`8.0`/`8.1` via `gemfiles/`.
+- Added `.ruby-version` (`4.0.6`) as the development Ruby.
+- Removed the unused `docker-compose.yml`.
+
 ## [0.7.4]
 
 - Fix: use ActiveSupport.on_load in railtie to avoid premature ActionView load by @skuark

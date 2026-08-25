@@ -108,7 +108,7 @@ def extract_changes!
 
   status = system!("git status --porcelain")
            .split("\n")
-           .filter { _1 =~ %r{icons/original} }
+           .grep(%r{icons/original})
            .map(&:strip)
            .map { _1.split(" ", 2) }
            .each do |i|
