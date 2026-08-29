@@ -1,3 +1,52 @@
+## [0.8.2]
+
+### Added
+ - `credit-card-check`
+ - `credit-card-minus`
+ - `credit-card-plus`
+ - `credit-card-x`
+ - `galaxy`
+ - `message-circle-dashed-check`
+ - `playing-card`
+ - `playing-cards-fan`
+ - `playing-cards`
+ - `robot-arm`
+ - `robot-vacuum`
+ - `ship-cargo`
+ - `trailer`
+
+### Updated
+ - `asterisk`
+ - `badge-check`
+ - `beef`
+ - `blend`
+ - `book-x`
+ - `circle-check`
+ - `circle-dot`
+ - `clipboard-x`
+ - `clock-check`
+ - `copy-x`
+ - `face-angry`
+ - `ghost`
+ - `git-merge-conflict`
+ - `git-pull-request-closed`
+ - `grid-2x2-x`
+ - `key`
+ - `mail-x`
+ - `message-circle-check`
+ - `panda`
+ - `piano`
+ - `ship`
+ - `shopping-cart`
+ - `spell-check`
+ - `square-check`
+ - `square-split-horizontal`
+ - `square-split-vertical`
+ - `sword`
+ - `swords`
+ - `user-round-x`
+ - `volume-x`
+
 ## [0.8.1]
 
 ### Added
