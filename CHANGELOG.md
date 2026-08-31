@@ -1,3 +1,11 @@
+## [0.8.3]
+
+### Added
+ - `vector-polygon`
+
+### Updated
+ - `vector-square`
+
 ## [0.8.2]
 
 ### Added
