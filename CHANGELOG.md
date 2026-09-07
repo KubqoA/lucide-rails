@@ -1,3 +1,42 @@
+## [0.8.4]
+
+### Added
+ - `bridge`
+ - `can-soda`
+ - `can`
+ - `circle-dashed-check`
+ - `credit-card-reader`
+ - `dome`
+ - `door-stairwell`
+ - `engine`
+ - `equal-approximately-not`
+ - `gap-horizontal`
+ - `gap-vertical`
+ - `germ-off`
+ - `germ`
+ - `lighthouse`
+ - `mail-pen`
+ - `shopping-cart-minus`
+ - `shopping-cart-plus`
+ - `shrimp-off`
+ - `square-exclamation-point`
+ - `trash-off`
+ - `user-group`
+ - `user-round-group`
+ - `virus-off`
+ - `virus`
+ - `whistle`
+
+### Updated
+ - `computer`
+ - `door-closed-locked`
+ - `door-closed`
+ - `door-open`
+ - `leaf`
+ - `shrimp`
+ - `table-2`
+ - `trash`
+
 ## [0.8.3]
 
 ### Added
