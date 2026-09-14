@@ -1,3 +1,49 @@
+## [0.8.5]
+
+### Added
+ - `book-bookmark`
+ - `building-complex-plus`
+ - `building-complex`
+ - `calendar-chevrons-right`
+ - `carton-off`
+ - `carton`
+ - `clef-alto`
+ - `clef-bass`
+ - `clef-treble`
+ - `globe-code`
+ - `hourglass-cog`
+ - `houses`
+ - `iv-bag`
+ - `layout-arrow-down`
+ - `layout-arrow-right`
+ - `messages-circle`
+ - `monitor-pc`
+ - `mouth-off`
+ - `mouth`
+ - `notebook-dot`
+ - `park`
+ - `plant-pot`
+ - `square-bookmark`
+ - `tic-tac-toe`
+ - `toothbrush-sparkles`
+ - `toothbrush`
+ - `triangles-centerline-dashed-horizontal`
+ - `triangles-centerline-dashed-vertical`
+
+### Updated
+ - `cookie`
+ - `credit-card-check`
+ - `credit-card-minus`
+ - `credit-card-plus`
+ - `credit-card-x`
+ - `credit-card`
+ - `door-open`
+ - `folder-bookmark`
+ - `id-card-lanyard`
+ - `id-card`
+ - `lectern`
+ - `satellite-dish`
+
 ## [0.8.4]
 
 ### Added
