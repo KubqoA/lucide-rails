@@ -1,3 +1,22 @@
+## [0.8.6]
+
+### Added
+ - `cupcake`
+ - `door-closed-package`
+ - `faucet`
+ - `lambda`
+ - `nepali-rupee`
+ - `rotate-cw-clock`
+ - `square-dashed-plus`
+ - `square-dashed-x-corner`
+ - `square-dashed-x`
+ - `tube-lotion`
+
+### Updated
+ - `broccoli`
+ - `calendar-chevrons-right`
+ - `save-off`
+
 ## [0.8.5]
 
 ### Added
