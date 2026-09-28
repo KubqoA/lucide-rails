@@ -1,3 +1,18 @@
+## [0.8.7]
+
+### Added
+ - `briefcase-plus`
+ - `house-cog`
+ - `line-dot-bottom-vertical`
+ - `line-dot-left-horizontal`
+ - `line-dot-top-vertical`
+ - `square-sparkles`
+
+### Updated
+ - `card-sim`
+ - `mail-pen`
+ - `map-pinned`
+
 ## [0.8.6]
 
 ### Added
