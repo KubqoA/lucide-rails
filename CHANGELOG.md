@@ -1,3 +1,24 @@
+## [0.8.8]
+
+### Added
+ - `armenian-dram`
+ - `bangladeshi-taka`
+ - `door-closed-cog`
+ - `kazakh-tenge`
+ - `layout-grid-circles`
+ - `letters`
+ - `printer-3d`
+ - `rugby-ball`
+ - `text-align-justify-center`
+ - `text-align-justify-end`
+ - `text-align-justify-start`
+ - `wind-arrow-up`
+
+### Updated
+ - `nut-off`
+ - `nut`
+ - `wifi-cog`
+
 ## [0.8.7]
 
 ### Added
