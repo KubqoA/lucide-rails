@@ -1,3 +1,24 @@
+## [0.8.9]
+
+### Added
+ - `groceries`
+ - `handle-bottom-right`
+ - `hiking-stick`
+ - `lens`
+ - `mail-dot`
+ - `phone-log`
+ - `scratch-blocks`
+ - `screw`
+ - `shield-house`
+ - `user-round-star`
+ - `wifi-lock`
+
+### Updated
+ - `pen-tool`
+ - `salad`
+ - `soup`
+ - `tool-case`
+
 ## [0.8.8]
 
 ### Added
