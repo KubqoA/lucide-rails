@@ -1,3 +1,29 @@
+## [0.8.10]
+
+### Added
+ - `belarusian-ruble`
+ - `calendar-chevrons-left`
+ - `certificate`
+ - `circle-fading-play`
+ - `cpu-ai`
+ - `eighth-note`
+ - `eighth-notes`
+ - `folder-user`
+ - `folder-users`
+ - `graph-star`
+ - `guitar-electric`
+ - `half-note`
+ - `message-circle-text`
+ - `perfume-bottle`
+ - `server-nas`
+ - `sixteenth-notes`
+ - `users-collaboration`
+ - `users-round-collaboration`
+
+### Updated
+ - `barrel`
+ - `chess-queen`
+
 ## [0.8.9]
 
 ### Added
