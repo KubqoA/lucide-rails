@@ -1,3 +1,24 @@
+## [0.8.11]
+
+### Added
+ - `avocado`
+ - `bacon`
+ - `brain-off`
+ - `circle-chevrons-down`
+ - `circle-chevrons-left`
+ - `circle-chevrons-right`
+ - `circle-chevrons-up`
+ - `graph-hub`
+ - `letter-spacing`
+ - `line-height`
+ - `smartphone-user-round`
+ - `tombstone`
+
+### Updated
+ - `brain-circuit`
+ - `brain-cog`
+ - `brain`
+
 ## [0.8.10]
 
 ### Added
