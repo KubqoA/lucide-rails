@@ -1,3 +1,39 @@
+## [0.8.13]
+
+### Added
+ - `badge-exclamation-point`
+ - `battery-exclamation-point`
+ - `book-exclamation-point`
+ - `circle-exclamation-point`
+ - `circle-fading-check`
+ - `clock-exclamation-point`
+ - `cloud-exclamation-point`
+ - `diagram-flow-horizontal`
+ - `diagram-flow-vertical`
+ - `globe-ban`
+ - `globe-plus`
+ - `grid-3x3-off`
+ - `mail-exclamation-point`
+ - `mango`
+ - `message-circle-exclamation-point`
+ - `message-square-exclamation-point`
+ - `moped`
+ - `octagon-exclamation-point`
+ - `opacity`
+ - `package-pen`
+ - `package-question-mark`
+ - `search-exclamation-point`
+ - `shield-exclamation-point`
+ - `square-dashed-search`
+ - `triangle-exclamation-point`
+ - `user-exclamation-point`
+ - `user-round-exclamation-point`
+
+### Updated
+ - `chef-hat`
+ - `circle-letter-j`
+ - `square-letter-j`
+
 ## [0.8.12]
 
 ### Added
