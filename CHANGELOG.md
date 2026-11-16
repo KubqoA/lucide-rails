@@ -1,3 +1,84 @@
+## [0.8.14]
+
+### Added
+ - `arrows-from-axis-dashed-horizontal`
+ - `arrows-from-axis-dashed-vertical`
+ - `arrows-from-axis-horizontal`
+ - `arrows-from-axis-vertical`
+ - `arrows-to-axis-dashed-horizontal`
+ - `arrows-to-axis-dashed-vertical`
+ - `arrows-to-axis-horizontal`
+ - `arrows-to-axis-vertical`
+ - `asterism`
+ - `cap`
+ - `carets-from-axis-dashed-horizontal`
+ - `carets-from-axis-dashed-vertical`
+ - `carets-from-axis-horizontal`
+ - `carets-from-axis-vertical`
+ - `carets-to-axis-dashed-horizontal`
+ - `carets-to-axis-dashed-vertical`
+ - `carets-to-axis-horizontal`
+ - `carets-to-axis-vertical`
+ - `cheese`
+ - `chevrons-from-axis-dashed-horizontal`
+ - `chevrons-from-axis-dashed-vertical`
+ - `chevrons-from-axis-horizontal`
+ - `chevrons-from-axis-vertical`
+ - `chevrons-to-axis-dashed-horizontal`
+ - `chevrons-to-axis-dashed-vertical`
+ - `chevrons-to-axis-horizontal`
+ - `chevrons-to-axis-vertical`
+ - `circle-arrow-down-left-exit`
+ - `circle-arrow-down-right-exit`
+ - `circle-arrow-up-left-exit`
+ - `circle-arrow-up-right-exit`
+ - `exclamation-mark`
+ - `graph-ring`
+ - `layout-grid-plus`
+ - `mound-shovel`
+ - `nigerian-naira`
+ - `question-mark`
+ - `route-arrow-right`
+ - `square-arrow-down-enter`
+ - `square-arrow-down-exit`
+ - `square-arrow-down-left-enter`
+ - `square-arrow-down-left-exit`
+ - `square-arrow-down-right-enter`
+ - `square-arrow-down-right-exit`
+ - `square-arrow-left-enter`
+ - `square-arrow-left-exit`
+ - `square-arrow-up-enter`
+ - `square-arrow-up-exit`
+ - `square-arrow-up-left-enter`
+ - `square-arrow-up-left-exit`
+ - `square-arrow-up-right-enter`
+ - `square-arrow-up-right-exit`
+ - `square-axis-dashed-horizontal`
+ - `square-axis-dashed-vertical`
+ - `square-axis-horizontal`
+ - `square-axis-vertical`
+ - `stroke-line-cap-butt`
+ - `stroke-line-cap-round`
+ - `stroke-line-cap-square`
+ - `stroke-line-join-bevel`
+ - `stroke-line-join-miter`
+ - `stroke-line-join-round`
+ - `text-pen`
+
+### Updated
+ - `badge-question-mark`
+ - `battery-exclamation-point`
+ - `circle-question-mark`
+ - `file-question-mark`
+ - `loader-pinwheel`
+ - `mail-question-mark`
+ - `message-circle-question-mark`
+ - `package-question-mark`
+ - `route`
+ - `shield-question-mark`
+ - `square-arrow-right-enter`
+ - `square-arrow-right-exit`
+
 ## [0.8.13]
 
 ### Added

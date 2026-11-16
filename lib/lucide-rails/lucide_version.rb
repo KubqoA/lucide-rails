@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module LucideRails
-  LUCIDE_VERSION = "1.70.0"
+  LUCIDE_VERSION = "@lucide/lab@0.14.0"
 end
