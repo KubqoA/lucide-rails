@@ -1,3 +1,41 @@
+## [0.8.15]
+
+### Added
+ - `bot-check`
+ - `bot-minus`
+ - `bot-plus`
+ - `bot-x`
+ - `box-dashed`
+ - `chocolate-bar`
+ - `cinema`
+ - `circle-bounce`
+ - `circle-person-arms-spread`
+ - `circle-speed-lines`
+ - `diagram-sankey`
+ - `doghouse`
+ - `folder-network`
+ - `folder-plus-corner`
+ - `graph-path`
+ - `hand-truck`
+ - `hole`
+ - `house-arrow-left`
+ - `house-arrow-right`
+ - `jacket`
+ - `package-arrow-bend-up-left`
+ - `paint-gun`
+ - `rectangle-landscape-play`
+ - `stroke-width`
+ - `user-round-clock`
+ - `warehouse-waves`
+
+### Updated
+ - `calendar-clock`
+ - `clipboard-clock`
+ - `file-clock`
+ - `folder-clock`
+ - `mail-clock`
+ - `spray-can`
+
 ## [0.8.14]
 
 ### Added
